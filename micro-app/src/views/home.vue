@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="micro-main">
     <img alt="Vue logo" :src="logoPath" />
     <HelloWorld msg="子应用 -- Vite+Vue@3.x" />
   </div>
@@ -22,5 +22,7 @@ export default defineComponent({
 </script>
 
 <style>
-
+.micro-main {
+  background: red;
+}
 </style>
